@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Button } from '../components/ui/button';
-import { Bottle, Heart, BookOpen, Users, CheckCircle } from 'lucide-react';
+import { PillBottle, Heart, BookOpen, Users, CheckCircle } from 'lucide-react';
 
 export function CleftBottleFeeding() {
   return (
@@ -9,7 +9,7 @@ export function CleftBottleFeeding() {
       <section className="relative h-[400px] flex items-center bg-gradient-to-r from-[#006c54] to-[#005544]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="flex items-center gap-3 mb-4">
-            <Bottle className="h-10 w-10" />
+            <PillBottle className="h-10 w-10" />
             <h1 className="text-4xl md:text-5xl font-bold">Cleft Bottle Feeding Program</h1>
           </div>
           <p className="text-xl text-gray-200 max-w-2xl">
@@ -38,9 +38,9 @@ export function CleftBottleFeeding() {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1758575514409-cb650ba2f4df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWJ5JTIwYm90dGxlJTIwZmVlZGluZyUyMGluZmFudHxlbnwxfHx8fDE3NzU0NDA2MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Baby bottle feeding"
-                className="rounded-2xl shadow-xl"
+                src="/images/programs/stuff-included-in-cfsf-feeding-program-kits.jpg"
+                alt="Items included in CFSF feeding program kits"
+                className="rounded-2xl shadow-xl w-full h-auto"
               />
             </div>
           </div>
@@ -60,7 +60,7 @@ export function CleftBottleFeeding() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Bottle className="h-8 w-8 text-white" />
+                  <PillBottle className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Specialized Bottles</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
@@ -218,7 +218,7 @@ export function CleftBottleFeeding() {
           </div>
 
           <div className="text-center mt-12">
-            <Link to="/contact">
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLScJiR9EpIdGaikozQ_O3tWY8-VhX8LRYeAw-aM6Xubfjic1dg/viewform" target="_blank" rel="noreferrer">
               <Button className="bg-[#006c54] hover:bg-[#005544] text-white rounded-full px-8 py-6 text-lg">
                 Enroll in the Program
               </Button>

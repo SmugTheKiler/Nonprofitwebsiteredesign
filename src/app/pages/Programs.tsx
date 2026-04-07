@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Button } from '../components/ui/button';
-import { Bottle, Users, UserPlus, ArrowRight, Heart } from 'lucide-react';
+import { PillBottle, Users, UserPlus, ArrowRight, Heart } from 'lucide-react';
 
 export function Programs() {
   return (
@@ -38,7 +38,7 @@ export function Programs() {
               <div className="p-8">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="bg-[#006c54] p-2 rounded-full">
-                    <Bottle className="h-6 w-6 text-white" />
+                    <PillBottle className="h-6 w-6 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Cleft Bottle Feeding Program</h3>
                 </div>
@@ -143,7 +143,7 @@ export function Programs() {
 
             <div className="bg-white rounded-xl p-6 shadow-md">
               <div className="bg-[#006c54] w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                <Bottle className="h-6 w-6 text-white" />
+                <PillBottle className="h-6 w-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Practical Resources</h3>
               <p className="text-gray-600 text-sm">

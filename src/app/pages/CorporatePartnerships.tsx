@@ -1,359 +1,155 @@
-import { Link } from 'react-router';
 import { Button } from '../components/ui/button';
-import { Building2, Users, Heart, TrendingUp, Award, Handshake } from 'lucide-react';
 
 export function CorporatePartnerships() {
   return (
     <div className="overflow-hidden">
       {/* Hero Section */}
-      <section className="relative h-[400px] flex items-center bg-gradient-to-r from-[#006c54] to-[#005544]">
+      <section className="relative h-[520px] flex items-center bg-gradient-to-r from-[#006c54] to-[#005544]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Corporate Partnerships</h1>
-          <p className="text-xl text-gray-200 max-w-2xl">
-            Partner with us to create meaningful impact while engaging your team
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            Corporate Partnerships
+          </h1>
+          <p className="text-lg md:text-xl max-w-3xl text-gray-200">
+            Partner with us to make a bigger impact through sponsorship and collaboration opportunities.
           </p>
         </div>
       </section>
 
-      {/* Partnership Overview */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <img
-                src="https://images.unsplash.com/photo-1758518729240-7162d07427b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBwYXJ0bmVyc2hpcCUyMG9mZmljZXxlbnwxfHx8fDE3NzU0NDA2MzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Corporate partnership"
-                className="rounded-2xl shadow-xl"
-              />
-            </div>
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Why Partner With Us</h2>
-              <div className="space-y-4 text-gray-600 leading-relaxed">
-                <p>
-                  A partnership with the Cleft Family Support Foundation creates meaningful impact for families while providing your company with opportunities to engage employees, strengthen your brand, and demonstrate corporate social responsibility.
-                </p>
-                <p>
-                  We work with businesses of all sizes to create customized partnerships that align with your company's values and goals. From cause marketing campaigns to employee volunteer programs, we'll help you make a difference.
-                </p>
-                <p>
-                  Join leading companies who have chosen to support our mission of providing comprehensive care and support to families affected by cleft conditions.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Partnership Benefits */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Partnership Benefits</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              What your company gains through partnership
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Heart className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Meaningful Impact</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Make a real difference in the lives of families affected by cleft conditions through your company's support and engagement.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Users className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Employee Engagement</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Boost morale and retention by giving employees opportunities to volunteer and participate in meaningful charitable activities.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <TrendingUp className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Brand Enhancement</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Strengthen your brand reputation and demonstrate corporate social responsibility to customers and stakeholders.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Award className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Recognition</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Receive recognition through our marketing channels, events, and communications as a valued partner supporting families.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Building2 className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Custom Solutions</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Work with our team to create a partnership program tailored to your company's specific goals and values.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Handshake className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Trusted Partnership</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Partner with an established nonprofit with proven programs, transparent operations, and measurable impact.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Partnership Opportunities */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Partnership Opportunities</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Flexible options to support our mission
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-[#006c54]">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Cause Marketing</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Create a campaign where a portion of sales supports our mission. We provide marketing materials, social media content, and promotional support to maximize impact and engagement.
-              </p>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Point-of-sale campaigns</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Product partnerships</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Awareness month promotions</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-[#006c54]">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Employee Giving</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Engage employees through workplace giving campaigns, payroll deduction programs, and matching gift initiatives that double the impact of employee donations.
-              </p>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Payroll deduction programs</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Matching gift programs</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Annual giving campaigns</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-[#006c54]">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Corporate Sponsorship</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Sponsor our signature events, programs, or mission trips. Receive prominent recognition and opportunities to engage with our community of supporters.
-              </p>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Annual gala sponsorship</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Program sponsorship</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Mission trip sponsorship</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-[#006c54]">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Volunteer Programs</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Organize employee volunteer days or ongoing volunteer partnerships. We'll coordinate meaningful activities that make a real difference for families.
-              </p>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Team volunteer days</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Skills-based volunteering</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Board service opportunities</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-[#006c54]">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">In-Kind Donations</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Donate products, services, or expertise that support our operations and programs. From office supplies to professional services, every contribution helps.
-              </p>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Product donations</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Professional services</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Technology and equipment</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-[#006c54]">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Custom Partnerships</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Work with our team to create a unique partnership that aligns with your company's specific goals, values, and corporate giving strategy.
-              </p>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Multi-year partnerships</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Program development</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-600">
-                  <span className="text-[#006c54] font-bold">•</span>
-                  <span>Strategic initiatives</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Current Partners */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Partners</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Proud to work with these organizations making a difference
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow-md flex items-center justify-center h-32">
-                <Building2 className="h-12 w-12 text-gray-300" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* How to Get Started */}
+      {/* Main Content */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">How to Get Started</h2>
-            <p className="text-lg text-gray-600">
-              Begin your partnership in three simple steps
+          <div className="bg-white rounded-3xl p-12 shadow-xl mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Corporate Partnerships</h2>
+            <p className="text-lg text-gray-600 leading-relaxed mb-8">
+              At Cleft Family Support Foundation, we believe that working together with businesses can have a profound impact on the families we support. Our Corporate Partnerships program offers an opportunity for businesses across the United States to align with our mission, create meaningful change, and give back to the community. By partnering with us, you can play a crucial role in supporting children with cleft conditions and their families.
+            </p>
+
+            {/* 501(c)(3) Status Notice */}
+            <div className="bg-[#e8f5e9] border-l-4 border-[#4caf50] p-6 rounded-lg mb-8">
+              <div className="flex items-start gap-3">
+                <div className="text-2xl">✓</div>
+                <div>
+                  <p className="font-semibold text-gray-900 mb-2">501(c)(3) Status: Approved</p>
+                  <p className="text-gray-700">
+                    We are proud to confirm that our 501(c)(3) status has been approved by the IRS. All donations to Cleft Family Support Foundation are tax-deductible. We actively welcome corporate partnerships with businesses in the United States.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Why Partner */}
+          <div className="bg-white rounded-3xl p-12 shadow-xl mb-12">
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">Why Partner With Us?</h3>
+            
+            <div className="space-y-8">
+              <div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">💡 Make a Difference</h4>
+                <p className="text-gray-600 leading-relaxed">
+                  Your partnership will directly support families who are impacted by craniofacial conditions and cleft anomalies. Your contribution can help us provide mentorship, emotional support, and essential resources to children and their families, making a lasting impact on their lives.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">🎯 Enhance Your Brand</h4>
+                <p className="text-gray-600 leading-relaxed">
+                  By becoming a corporate partner, your company will gain visibility and recognition for supporting a meaningful cause. We'll proudly showcase your company's commitment to social responsibility through various channels, including our website, social media, and at events.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">💰 Tax Benefits</h4>
+                <p className="text-gray-600 leading-relaxed">
+                  All donations to Cleft Family Support Foundation are tax-deductible. We are a proud 501(c)(3) nonprofit organization, and your company's contributions can provide significant tax advantages while making a real impact on families in need.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Ways to Partner */}
+          <div className="bg-white rounded-3xl p-12 shadow-xl mb-12">
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">Ways to Partner</h3>
+            <p className="text-gray-600 mb-8 leading-relaxed">
+              There are several ways your company can get involved with Cleft Family Support Foundation:
+            </p>
+
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <span className="text-[#006c54] font-bold text-2xl leading-none">•</span>
+                <div>
+                  <p className="font-semibold text-gray-900">Financial Contributions</p>
+                  <p className="text-gray-600">Provide direct financial support to our programs and initiatives.</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-[#006c54] font-bold text-2xl leading-none">•</span>
+                <div>
+                  <p className="font-semibold text-gray-900">In-Kind Donations</p>
+                  <p className="text-gray-600">Donate goods or services that help us reduce operational costs and maximize our impact.</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-[#006c54] font-bold text-2xl leading-none">•</span>
+                <div>
+                  <p className="font-semibold text-gray-900">Employee Engagement</p>
+                  <p className="text-gray-600">Encourage employee participation through volunteering, fundraising events, or team challenges.</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-[#006c54] font-bold text-2xl leading-none">•</span>
+                <div>
+                  <p className="font-semibold text-gray-900">Event Sponsorship</p>
+                  <p className="text-gray-600">Sponsor events and activities that directly support families affected by cleft lip and palate conditions.</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-[#006c54] font-bold text-2xl leading-none">•</span>
+                <div>
+                  <p className="font-semibold text-gray-900">Cause Marketing</p>
+                  <p className="text-gray-600">Create co-branded campaigns to raise awareness and funds for our mission.</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-[#006c54] font-bold text-2xl leading-none">•</span>
+                <div>
+                  <p className="font-semibold text-gray-900">International Partnerships</p>
+                  <p className="text-gray-600">As we grow and expand our international operations in the future, including Bangladesh, we will explore partnerships with companies around the world to support children and families there.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          {/* How to Become a Partner */}
+          <div className="bg-gradient-to-br from-[#006c54] to-[#005544] rounded-3xl p-12 shadow-xl mb-12 text-white">
+            <h3 className="text-2xl md:text-3xl font-bold mb-8">How to Become a Partner</h3>
+            <p className="text-lg mb-8 leading-relaxed">
+              We invite companies of all sizes and industries to explore partnership opportunities with us. Here's how you can get started:
+            </p>
+            
+            <ol className="space-y-4 mb-8">
+              <li className="flex items-start gap-4">
+                <span className="bg-[#ffcc00] text-[#006c54] font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</span>
+                <span className="text-lg leading-relaxed">Fill out the partnership inquiry form below to express your interest.</span>
+              </li>
+              <li className="flex items-start gap-4">
+                <span className="bg-[#ffcc00] text-[#006c54] font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">2</span>
+                <span className="text-lg leading-relaxed">We'll reach out to discuss partnership opportunities tailored to your company's goals.</span>
+              </li>
+            </ol>
+
+            <p className="text-lg mb-8">
+              Together, we'll create a partnership that makes a real impact on children with craniofacial conditions and their families.
             </p>
           </div>
 
-          <div className="space-y-6">
-            <div className="bg-white rounded-2xl p-6 shadow-lg flex gap-4">
-              <div className="bg-[#006c54] w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold text-xl">
-                1
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Contact Our Team</h3>
-                <p className="text-gray-600">
-                  Reach out to discuss your company's interests, goals, and how we can create a meaningful partnership together.
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-lg flex gap-4">
-              <div className="bg-[#006c54] w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold text-xl">
-                2
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Develop Partnership Plan</h3>
-                <p className="text-gray-600">
-                  Work with our corporate partnerships team to design a customized program that aligns with your objectives and budget.
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-lg flex gap-4">
-              <div className="bg-[#006c54] w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold text-xl">
-                3
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Launch & Make Impact</h3>
-                <p className="text-gray-600">
-                  Execute your partnership program with our support and see the real difference your company makes in families' lives.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <Link to="/contact">
-              <Button className="bg-[#006c54] hover:bg-[#005544] text-white rounded-full px-8 py-6 text-lg">
-                Start a Partnership
+          {/* CTA */}
+          <div className="text-center">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScYxvWMVk2nvp3U4wBIpfk-0ZnW1BvjSyXeuuRzjarX03FNyw/viewform" target="_blank" rel="noreferrer">
+              <Button className="bg-[#006c54] hover:bg-[#005544] text-white rounded-full px-10 py-6 text-lg font-semibold">
+                Apply to Become a Partner →
               </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-[#006c54] text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's Create Impact Together</h2>
-          <p className="text-xl text-gray-200 mb-8">
-            Partner with us to support families affected by cleft conditions while engaging your team and strengthening your brand.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/contact">
-              <Button className="bg-white text-[#006c54] hover:bg-gray-100 rounded-full px-8 py-6 text-lg">
-                Contact Us
-              </Button>
-            </Link>
-            <Link to="/about">
-              <Button className="bg-[#ffcc00] text-gray-900 hover:bg-[#e6b800] rounded-full px-8 py-6 text-lg">
-                Learn More About Us
-              </Button>
-            </Link>
+            </a>
+            <p className="text-gray-600 mt-4">Join us in creating change. Your business can be the difference someone needs.</p>
           </div>
         </div>
       </section>

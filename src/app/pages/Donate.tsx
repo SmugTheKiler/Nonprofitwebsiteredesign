@@ -159,53 +159,6 @@ export function Donate() {
         </div>
       </section>
 
-      {/* Impact Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Your Impact</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              See how your donation supports families
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center">
-              <div className="bg-[#006c54] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Heart className="h-10 w-10 text-white" />
-              </div>
-              <div className="text-4xl font-bold text-gray-900 mb-2">$50</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Feeding Kit</h3>
-              <p className="text-gray-600">
-                Provides a complete specialized feeding bottle kit for an infant with cleft conditions
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center">
-              <div className="bg-[#006c54] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Heart className="h-10 w-10 text-white" />
-              </div>
-              <div className="text-4xl font-bold text-gray-900 mb-2">$100</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Counseling Sessions</h3>
-              <p className="text-gray-600">
-                Funds family counseling sessions to support emotional well-being
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center">
-              <div className="bg-[#006c54] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Heart className="h-10 w-10 text-white" />
-              </div>
-              <div className="text-4xl font-bold text-gray-900 mb-2">$500</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Surgical Care</h3>
-              <p className="text-gray-600">
-                Supports cleft repair surgery for a child in Bangladesh
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Other Ways to Give */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -297,9 +250,9 @@ export function Donate() {
                 <div className="flex items-start gap-4">
                   <CheckCircle className="h-6 w-6 text-[#006c54] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Proven Results</h3>
+                    <h3 className="font-bold text-gray-900 mb-1">Program Transparency</h3>
                     <p className="text-gray-600">
-                      Over 2,500 families supported with measurable outcomes and lasting impact.
+                      We share how donations support families through feeding education, counseling, and access to care.
                     </p>
                   </div>
                 </div>

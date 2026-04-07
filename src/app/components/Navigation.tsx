@@ -10,7 +10,9 @@ export function Navigation() {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
+    { name: 'Our Story', path: '/our-story' },
     { name: 'Programs', path: '/programs' },
+    { name: 'Ambassador Program', path: '/programs/ambassador' },
     { name: 'Get Support', path: '/get-support' },
     { name: 'Get Involved', path: '/get-involved' },
     { name: 'Contact', path: '/contact' },
@@ -51,11 +53,11 @@ export function Navigation() {
                 {item.name}
               </Link>
             ))}
-            <Link to="/donate">
+            <a href="https://www.zeffy.com/en-US/donation-form/donate-to-make-a-difference-10119" target="_blank" rel="noreferrer">
               <Button className="bg-[#d52a1d] hover:bg-[#b32318] text-white rounded-full px-6">
                 Donate
               </Button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -88,11 +90,11 @@ export function Navigation() {
               </Link>
             ))}
             <div className="px-4 pt-2">
-              <Link to="/donate" onClick={() => setIsOpen(false)}>
+              <a href="https://www.zeffy.com/en-US/donation-form/donate-to-make-a-difference-10119" target="_blank" rel="noreferrer">
                 <Button className="bg-[#d52a1d] hover:bg-[#b32318] text-white rounded-full w-full">
                   Donate
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
         )}

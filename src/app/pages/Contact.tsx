@@ -1,5 +1,6 @@
 import { Button } from '../components/ui/button';
-import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram, Send } from 'lucide-react';
+import { NewsletterSignup } from '../components/NewsletterSignup';
 
 export function Contact() {
   return (
@@ -24,12 +25,11 @@ export function Contact() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Phone</h3>
               <p className="text-gray-600 mb-4">
-                Call us Monday - Friday<br />9:00 AM - 5:00 PM EST
+                Leave a message and we will call you back
               </p>
-              <a href="tel:5551234567" className="text-[#006c54] font-semibold text-lg hover:underline">
-                (555) 123-4567
+              <a href="tel:14705881844" className="text-[#006c54] font-semibold text-lg hover:underline">
+                1 (470) 588-1844
               </a>
-              <p className="text-sm text-gray-500 mt-2">24/7 Helpline Available</p>
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
@@ -38,10 +38,10 @@ export function Contact() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Email</h3>
               <p className="text-gray-600 mb-4">
-                Send us a message and we'll respond within 24 hours
+                Feel free to reach out to us
               </p>
-              <a href="mailto:info@cleftfamily.org" className="text-[#006c54] font-semibold text-lg hover:underline">
-                info@cleftfamily.org
+              <a href="mailto:info@cleftfamilysupport.org" className="text-[#006c54] font-semibold text-lg hover:underline">
+                info@cleftfamilysupport.org
               </a>
             </div>
 
@@ -49,15 +49,15 @@ export function Contact() {
               <div className="bg-[#006c54] w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <MapPin className="h-10 w-10 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Address</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Follow Us</h3>
               <p className="text-gray-600 mb-4">
-                Visit our office or send mail
+                Connect on social media
               </p>
-              <p className="text-gray-700 font-medium">
-                123 Hope Street<br />
-                Suite 400<br />
-                Anytown, ST 12345
-              </p>
+              <div className="flex justify-center gap-3">
+                <a href="https://www.facebook.com/CleftFamilySupportFoundation/" target="_blank" rel="noreferrer" className="text-[#006c54] hover:text-[#005544] font-medium transition-colors">Facebook</a>
+                <a href="https://www.instagram.com/cleftfamilysupport/" target="_blank" rel="noreferrer" className="text-[#006c54] hover:text-[#005544] font-medium transition-colors">Instagram</a>
+                <a href="https://www.threads.com/@cleftfamilysupport?xmt=AQGzpc0CJqvZQ889gWQfuqSZgGusl9JV9OEZnR5F8i3XY3g" target="_blank" rel="noreferrer" className="text-[#006c54] hover:text-[#005544] font-medium transition-colors">Threads</a>
+              </div>
             </div>
           </div>
         </div>
@@ -162,6 +162,9 @@ export function Contact() {
         </div>
       </section>
 
+      {/* Newsletter Signup */}
+      <NewsletterSignup variant="light" />
+
       {/* Social Media */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -171,32 +174,31 @@ export function Contact() {
           </p>
           <div className="flex justify-center gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com/CleftFamilySupportFoundation/"
+              target="_blank"
+              rel="noreferrer"
               className="bg-[#006c54] p-4 rounded-full hover:bg-[#005544] transition-colors group"
               aria-label="Facebook"
             >
               <Facebook className="h-8 w-8 text-white" />
             </a>
             <a
-              href="#"
-              className="bg-[#006c54] p-4 rounded-full hover:bg-[#005544] transition-colors group"
-              aria-label="Twitter"
-            >
-              <Twitter className="h-8 w-8 text-white" />
-            </a>
-            <a
-              href="#"
+              href="https://www.instagram.com/cleftfamilysupport/"
+              target="_blank"
+              rel="noreferrer"
               className="bg-[#006c54] p-4 rounded-full hover:bg-[#005544] transition-colors group"
               aria-label="Instagram"
             >
               <Instagram className="h-8 w-8 text-white" />
             </a>
             <a
-              href="#"
+              href="https://www.threads.com/@cleftfamilysupport?xmt=AQGzpc0CJqvZQ889gWQfuqSZgGusl9JV9OEZnR5F8i3XY3g"
+              target="_blank"
+              rel="noreferrer"
               className="bg-[#006c54] p-4 rounded-full hover:bg-[#005544] transition-colors group"
-              aria-label="LinkedIn"
+              aria-label="Threads"
             >
-              <Linkedin className="h-8 w-8 text-white" />
+              <Mail className="h-8 w-8 text-white" />
             </a>
           </div>
         </div>
@@ -223,7 +225,7 @@ export function Contact() {
             <div className="bg-white rounded-xl p-6 shadow-md">
               <h3 className="text-lg font-bold text-gray-900 mb-2">How quickly will you respond to my message?</h3>
               <p className="text-gray-600">
-                We strive to respond to all inquiries within 24 hours during business days. For urgent matters, please call our helpline at (555) 123-4567.
+                We strive to respond to all inquiries within 24 hours during business days. For urgent matters, please call us at 1 (470) 588-1844.
               </p>
             </div>
 

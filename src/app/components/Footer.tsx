@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { Heart, Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Heart, Mail, Phone, Facebook, Instagram } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -82,27 +82,21 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span className="text-sm text-gray-200">(555) 123-4567</span>
+                <span className="text-sm text-gray-200">1 (470) 588-1844</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <a href="mailto:info@cleftfamily.org" className="text-sm text-gray-200 hover:text-white transition-colors">
-                  info@cleftfamily.org
+                <a href="mailto:info@cleftfamilysupport.org" className="text-sm text-gray-200 hover:text-white transition-colors">
+                  info@cleftfamilysupport.org
                 </a>
               </li>
             </ul>
             <div className="flex gap-3 mt-4">
-              <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/CleftFamilySupportFoundation/" target="_blank" rel="noreferrer" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="Facebook">
                 <Facebook className="h-4 w-4" />
               </a>
-              <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="Twitter">
-                <Twitter className="h-4 w-4" />
-              </a>
-              <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/cleftfamilysupport/" target="_blank" rel="noreferrer" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="Instagram">
                 <Instagram className="h-4 w-4" />
-              </a>
-              <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="LinkedIn">
-                <Linkedin className="h-4 w-4" />
               </a>
             </div>
           </div>
