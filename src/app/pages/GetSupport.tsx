@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Button } from '../components/ui/button';
-import { Heart, Phone, Mail, FileText, Users } from 'lucide-react';
+import { Phone, Mail, FileText, Users } from 'lucide-react';
 
 export function GetSupport() {
   return (
@@ -251,7 +251,7 @@ export function GetSupport() {
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[#006c54] rounded-2xl p-12 text-white">
-            <Heart className="h-16 w-16 mx-auto mb-6" />
+            <img src="/images/icons/logo.png" alt="logo" className="h-20 w-20 mx-auto mb-6" />
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
             <p className="text-xl text-gray-200 mb-8">
               Connect with our team today and take the first step toward accessing support for your family.

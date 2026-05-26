@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Button } from '../components/ui/button';
-import { Users, Heart, BookOpen, Phone, Video, MessageCircle } from 'lucide-react';
+import { Users, BookOpen, Phone, Video, MessageCircle } from 'lucide-react';
 
 export function FamilySupport() {
   return (
@@ -59,9 +59,7 @@ export function FamilySupport() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Heart className="h-8 w-8 text-white" />
-              </div>
+              <img src="/images/icons/logo.png" alt="logo" className="h-10 w-10 mb-6" />
               <h3 className="text-xl font-bold text-gray-900 mb-4">Individual Counseling</h3>
               <p className="text-gray-600 leading-relaxed">
                 One-on-one sessions with licensed counselors who specialize in supporting families affected by cleft conditions. Address emotional challenges, medical decisions, and family dynamics.

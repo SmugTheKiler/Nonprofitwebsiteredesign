@@ -1,5 +1,5 @@
 import { Button } from '../components/ui/button';
-import { Heart, CheckCircle, CreditCard, Calendar, Building2 } from 'lucide-react';
+import { CheckCircle, CreditCard, Calendar, Building2 } from 'lucide-react';
 import { useState } from 'react';
 
 export function Donate() {
@@ -148,7 +148,7 @@ export function Donate() {
 
             {/* Submit Button */}
             <Button className="w-full bg-[#d52a1d] hover:bg-[#b32318] text-white rounded-xl py-6 text-lg font-semibold">
-              <Heart className="mr-2 h-5 w-5" />
+              <img src="/images/icons/logo.png" alt="logo" className="mr-2 h-6 w-6" />
               Complete Donation
             </Button>
 
@@ -191,9 +191,7 @@ export function Donate() {
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-md text-center hover:shadow-lg transition-shadow">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="h-8 w-8 text-white" />
-              </div>
+              <img src="/images/icons/logo.png" alt="logo" className="h-10 w-10 mx-auto mb-4" />
               <h3 className="text-lg font-bold text-gray-900 mb-2">Planned Giving</h3>
               <p className="text-gray-600 text-sm mb-4">
                 Include us in your estate planning or beneficiary designations

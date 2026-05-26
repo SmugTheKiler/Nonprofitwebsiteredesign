@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Button } from '../components/ui/button';
-import { Heart, Target, Users, Globe, Award, BookOpen } from 'lucide-react';
+import { Target, Users, Globe, Award, BookOpen } from 'lucide-react';
 
 export function About() {
   return (
@@ -70,9 +70,7 @@ export function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-3xl p-10 shadow-xl">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Heart className="h-8 w-8 text-white" />
-              </div>
+              <img src="/images/icons/logo.png" alt="logo" className="h-10 w-10" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
               <p className="text-gray-600 leading-relaxed">
                 Through age-specific programs, mentorship, education, and emotional care, we uplift families with love, empathy, and understanding.

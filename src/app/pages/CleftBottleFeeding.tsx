@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Button } from '../components/ui/button';
-import { PillBottle, Heart, BookOpen, Users, CheckCircle } from 'lucide-react';
+import { PillBottle, BookOpen, Users, CheckCircle } from 'lucide-react';
 
 export function CleftBottleFeeding() {
   return (
@@ -107,9 +107,7 @@ export function CleftBottleFeeding() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Heart className="h-8 w-8 text-white" />
-              </div>
+                <img src="/images/icons/logo.png" alt="logo" className="h-10 w-10 mb-6" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Ongoing Support</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Our support doesn't end after initial training. We're here to help troubleshoot challenges and celebrate successes throughout your feeding journey.

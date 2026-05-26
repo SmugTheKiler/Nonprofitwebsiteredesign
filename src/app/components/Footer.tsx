@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { Heart, Mail, Phone, Facebook, Instagram } from 'lucide-react';
+import { Mail, Phone, Facebook, Instagram } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -9,9 +9,7 @@ export function Footer() {
           {/* About Section */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="bg-white p-2 rounded-lg">
-                <Heart className="h-6 w-6 text-[#006c54] fill-[#006c54]" />
-              </div>
+              <img src="/images/icons/logo.png" alt="logo" className="h-9 w-9" />
               <div className="flex flex-col">
                 <span className="font-bold">Cleft Family</span>
                 <span className="text-sm text-gray-200">Support Foundation</span>

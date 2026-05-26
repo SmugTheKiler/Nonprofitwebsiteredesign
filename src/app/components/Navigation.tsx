@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router';
-import { Heart, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
 
 export function Navigation() {
@@ -31,9 +31,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="bg-[#006c54] p-2 rounded-lg">
-              <Heart className="h-7 w-7 text-white fill-white" />
-            </div>
+            <img src="/images/icons/logo.png" alt="logo" className="h-10 w-10" />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-[#006c54]">Cleft Family</span>
               <span className="text-sm text-gray-600">Support Foundation</span>

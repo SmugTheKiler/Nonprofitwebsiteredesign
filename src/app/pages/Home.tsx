@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Button } from '../components/ui/button';
-import { Heart, Users, Target, Globe, PillBottle, UserPlus, Phone, Mail, Facebook, Instagram, ArrowRight } from 'lucide-react';
+import { Users, Target, Globe, PillBottle, UserPlus, Phone, Mail, Facebook, Instagram, ArrowRight } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { NewsletterSignup } from '../components/NewsletterSignup';
 
@@ -60,9 +60,7 @@ export function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Mission Card */}
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-[#006c54] w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Heart className="h-8 w-8 text-white" />
-              </div>
+              <img src="/images/icons/logo.png" alt="logo" className="h-10 w-10 mb-6" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Mission
               </h3>
@@ -448,7 +446,7 @@ export function Home() {
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3">
                   <div className="bg-white/20 p-2 rounded-full flex-shrink-0">
-                    <Heart className="h-5 w-5" />
+                    <img src="/images/icons/logo.png" alt="logo" className="h-6 w-6" />
                   </div>
                   <div>
                     <p className="font-semibold mb-1">
