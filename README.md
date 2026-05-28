@@ -1,7 +1,6 @@
 
-  # Nonprofit Website Redesign
-
-  This is a code bundle for Nonprofit Website Redesign. The original project is available at https://www.figma.com/design/Cw7owiZkcV8WqrsPbhzV7A/Nonprofit-Website-Redesign.
+  # Cleft Family Support Foundation Website
+  Hosted temperairly at: cleftfamilysupportfoundation-8a8vqddhd-smugthekilers-projects.vercel.app
 
   ## Running the code
 
