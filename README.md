@@ -1,6 +1,6 @@
 
   # Cleft Family Support Foundation Website
-  Hosted temperairly at: cleftfamilysupportfoundation-8a8vqddhd-smugthekilers-projects.vercel.app
+  Hosted temperairly at: [cleftfamilysupportfoundation.vercel.app](cleftfamilysupportfoundation.vercel.app)
 
   ## Running the code
 
