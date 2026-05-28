@@ -1,6 +1,6 @@
 
   # Cleft Family Support Foundation Website
-  Hosted temperairly at: cleftfamilysupportfoundation.vercel.app
+  Hosted temperairly at: https://cleftfamilysupportfoundation.vercel.app/
 
   ## Running the code
 
